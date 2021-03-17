@@ -1,7 +1,8 @@
 from __future__ import print_function
-import sys
-import MusicTheory
 
+import sys
+
+from . import MusicTheory
 
 #    'DsMajor' :  { 'obvious' : { 'PLAY_CHORD_PROGRESSION_TONE_SML_JUMP':  [ 'GMinor', 'CMinor' ] ,   #up four half steps or down three half steps , iii, or vi, third or the sixth chord
 #                            'PLAY_CHORD_PROGRESSION_TONE_MID_JUMP':  [ 'GsMajor', 'FMinor'], #up five half steps or up two half steps , IV or ii

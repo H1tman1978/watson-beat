@@ -1,26 +1,16 @@
 from __future__ import print_function
-from Skeleton import MusicTheory
-from Skeleton import Constants
 
-from PeruvianWaltz import *
-from Anthematic import *
-from Propulsion import *
-from ReggaePop import *
-from BomMarch import *
-from Inspire import *
-from PopFunk import *
-from Chill import *
-from Space import *
-from Space_with_drums import *
-from EDM import *
-
-import os
-import re
-import sys
-import math
-import copy
-import random
-import collections
+from Moods.Anthematic import *
+from Moods.BomMarch import *
+from Moods.Chill import *
+from Moods.EDM import *
+from Moods.Inspire import *
+from Moods.PeruvianWaltz import *
+from Moods.PopFunk import *
+from Moods.Propulsion import *
+from Moods.ReggaePop import *
+from Moods.Space import *
+from Moods.Space_with_drums import *
 
 
 class Mood : 

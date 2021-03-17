@@ -2,11 +2,12 @@
 """
 Print a description of a MIDI file.
 """
-import midi
 import sys
 
+import python3_midi as midi
+
 if len(sys.argv) != 2:
-    print("Usage: {0} <midifile>").format(sys.argv[0])
+    print("Usage: {0} <midifile>".format(sys.argv[0]))
     sys.exit(2)
 
 midifile = sys.argv[1]

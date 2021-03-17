@@ -1,8 +1,10 @@
 from __future__ import print_function
 
-import random
 import collections
-import CreateMidiEventsForBass
+import random
+
+# import CreateMidiEventsForBass
+from Arranging import CreateMidiEventsForBass
 
 
 class ArrangeSections : 

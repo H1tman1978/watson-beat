@@ -1,12 +1,13 @@
 from __future__ import print_function
 
-import os
-import sys
-import json
-import Section
 import collections
+import json
+import sys
 
-def run ( wbClientJsonData, midiFile ) : 
+from . import Section
+
+
+def run ( wbClientJsonData, midiFile ) :
     
     movementsServer = collections.OrderedDict() 
     

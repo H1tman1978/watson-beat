@@ -1,14 +1,9 @@
 from __future__ import print_function
-from itertools import chain
 
-import sys
-import random
 import collections
+import random
 
-import Constants
-import MusicTheory
-
-
+from . import MusicTheory
 
 prnFlag = False
 

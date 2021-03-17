@@ -1,4 +1,5 @@
-import midi
+import python3_midi as midi
+
 # Instantiate a MIDI Pattern (contains a list of tracks)
 pattern = midi.Pattern(format=0, resolution=480)
 # Instantiate a MIDI Track (contains a list of MIDI events)
@@ -8,7 +9,7 @@ pattern.append(track)
 # Midi Events Start Here
 # Instantiate a MIDI note on event, append it to the track
 
-time = midi.TimeSignatureEvent(tick=0, data = [4, 2, 24, 8])
+time = midi.TimeSignatureEvent(tick=0, data=[4, 2, 24, 8])
 track.append(time)
 on = midi.NoteOnEvent(tick=0, velocity=83, pitch=midi.C_5)
 track.append(on)
@@ -83,9 +84,8 @@ track.append(on)
 off = midi.NoteOffEvent(tick=406, velocity=0, pitch=midi.Ds_4)
 track.append(off)
 
-
 eot = midi.EndOfTrackEvent(tick=1)
 track.append(eot)
 # Print out the pattern
-#print pattern
+# print pattern
 midi.write_midifile("midi_export.mid", pattern)

@@ -1,11 +1,6 @@
 from __future__ import print_function
 
-import sys
-import random
-import MusicTheory
-
-
-TSERhythmInfo = {    
+TSERhythmInfo = {
             
     '3/16' : {}, 
             

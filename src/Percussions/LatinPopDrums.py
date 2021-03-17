@@ -1,12 +1,14 @@
 from __future__ import print_function
-import sys
-import copy
-import random
+
 import collections
-import DrumConstants
+import random
+
 from Skeleton import Constants
 
-def run ( BeatInfo, Patterns, tse, rhythmSpeed, pl, rhythms ) : 
+from . import DrumConstants
+
+
+def run ( BeatInfo, Patterns, tse, rhythmSpeed, pl, rhythms ) :
 
     if ( 0 ) : 
         print ( "Latin Pop Drums" ) 
